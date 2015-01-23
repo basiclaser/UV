@@ -1,0 +1,48 @@
+/*
+.uv-app-invisible {
+background: #fffcfc;
+background: -moz-linear-gradient(top,  #fffcfc 0%, #faf7fd 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fffcfc), color-stop(100%,#faf7fd));
+background: -webkit-linear-gradient(top,  #fffcfc 0%,#faf7fd 100%);
+background: -o-linear-gradient(top,  #fffcfc 0%,#faf7fd 100%);
+background: -ms-linear-gradient(top,  #fffcfc 0%,#faf7fd 100%);
+background: linear-gradient(to bottom,  #fffcfc 0%,#faf7fd 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffcfc', endColorstr='#faf7fd',GradientType=0 );
+
+-webkit-box-shadow: 0px 0px 1px 1px rgba(207,158,255,1);
+-moz-box-shadow: 0px 0px 1px 1px rgba(207,158,255,1);
+box-shadow: 0px 0px 1px 1px rgba(207,158,255,1);
+
+}
+
+.uv-app-displace{
+left:-9999px; !important
+}
+
+.uv-app-highlight {
+background:#e6fbfb;
+}
+*/
+
+.uv-app-invisible {
+
+-webkit-box-shadow: 0px 0px 1px 1px #444;
+-moz-box-shadow: 0px 0px 1px 1px #444;
+box-shadow: 0px 0px 1px 1px #444;
+
+}
+
+.uv-app-displace {
+left:-9999px; !important
+/*    display: none;*/
+}
+
+.uv-app-highlight {
+background:#D2D2FF;
+-webkit-box-shadow: 0px 0px 1px 1px lightyellow;
+-moz-box-shadow: 0px 0px 1px 1px lightyellow;
+box-shadow: 0px 0px 1px 1px lightyellow;
+}
+
+/*#D2D2FF*/
+
